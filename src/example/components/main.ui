@@ -89,7 +89,7 @@
      <string>Output:</string>
     </property>
    </widget>
-   <widget class="QLCDNumber" name="output_lcd">
+   <widget class="QLCDNumber" name="output_lcd2">
     <property name="geometry">
      <rect>
       <x>70</x>
@@ -127,6 +127,16 @@
      <string>=</string>
     </property>
    </widget>
+   <widget class="QLCDNumber" name="output_lcd">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>160</y>
+      <width>64</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -134,7 +144,7 @@
      <x>0</x>
      <y>0</y>
      <width>408</width>
-     <height>30</height>
+     <height>33</height>
     </rect>
    </property>
   </widget>
